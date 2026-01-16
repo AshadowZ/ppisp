@@ -1,0 +1,12 @@
+# Build artifacts
+build/
+
+# Python cache
+__pycache__/
+
+# Python egg-info
+*.egg-info/
+
+# Shared object / dynamic library files
+*.so
+
