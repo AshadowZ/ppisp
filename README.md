@@ -89,6 +89,7 @@ for step in range(max_optimization_iters):
     # Step optimizers and scheduler
     for opt in ppisp_optimizers:
         opt.step()
+        opt.zero_grad(set_to_none=True)
     for sched in ppisp_schedulers:
         sched.step()
 
