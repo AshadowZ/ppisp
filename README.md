@@ -2,6 +2,8 @@
 
 Code for the work "PPISP: Physically-Plausible Compensation and Control of Photometric Variations in Radiance Field Reconstruction".
 
+[Project website](https://research.nvidia.com/labs/sil/projects/ppisp/) | [Paper](https://research.nvidia.com/labs/sil/projects/ppisp/assets/ppisp_arxiv_v1.pdf)
+
 ## Overview
 
 PPISP is a learned post-processing module for radiance field rendering that models common photometric variations found in real-world multi-camera video captures:
